@@ -1,0 +1,52 @@
+body {
+  background: #F4F4F4;;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-body,
+.btn {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pastries-wrapper,
+.cakes-wrapper {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  width: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: #493628 transparent;
+}
+
+.pastries-wrapper::-webkit-scrollbar,
+.cakes-wrapper::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.pastries-wrapper::-webkit-scrollbar-track,
+.cakes-wrapper::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.pastries-wrapper::-webkit-scrollbar-thumb,
+.cakes-wrapper::-webkit-scrollbar-thumb {
+  background-color: #493628;
+  border-radius: 4px;
+}
+
+.pastries-wrapper::-webkit-scrollbar-thumb:hover,
+.cakes-wrapper::-webkit-scrollbar-thumb:hover {
+  background-color: #493628;
+}
+
+.pastries-wrapper .card,
+.cakes-wrapper .card {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 400px;
+}
